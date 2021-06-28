@@ -1,16 +1,126 @@
-html {
-    scroll-behavior: smooth;
+body {
+    background: #00241c;
+    background: linear-gradient( black, rgb(0, 42, 49), teal);
 }
 
-body {
-    background-color: darkred;
+
+.header {
+    border: 2px solid rgb(60, 255, 0);
+}
+.profilepic {
+    width: 200px;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right:auto;
 }
 
 #navigation {
-    height: 1000px;
+    display: block;
+    color: darkorange;
+    /*width: 480px;*/
+    height: 350px;
+    margin-left: auto;
+    margin-right:auto;
+    border: 2px solid rgb(60, 255, 0);
+    padding: 0;
 }
 
-.section {
-    height: 1000px;
-    padding-top: 20px;
+.inhalt{
+    height: 500px;
+    color: darkorange;
+    font-size: 1.5em;
 }
+
+#lebenslauf {
+    display: block;
+    height: 480px;
+    font-size: 1em;
+    margin-left: auto;
+    margin-right:auto;
+    border: 2px solid rgb(60, 255, 0);
+
+}
+
+.lebenslauf, .skills, .kontakt {
+    background-color: rgb(104, 21, 0);
+    color: darkorange;
+
+}
+
+li {
+    list-style: none;
+    border-style: solid;
+    font-size: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+
+h2, p {
+    margin-left: 50px;
+    color: darkorange;
+}
+p {
+    font-size: 1.5em;
+    color: darkorange;
+}
+
+.elli {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+.webdev {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+.portfoliopepe {
+    width: 100%;
+    height: auto;
+    border-radius: none;
+    display: block;
+    margin-left: auto;
+    margin-right:auto;
+    border: 2px solid rgb(60, 255, 0);
+}
+
+.portfoliopepe img {
+    width: 100%;
+    height: auto;
+
+}
+
+/*--------------------------Meine Skills------------------------------------------------*/
+/* Make sure that padding behaves as expected */
+* {box-sizing:border-box}
+
+/* Container for skill bars */
+.container {
+  width: 100%; /* Full width */
+  background-color: #ddd; /* Grey background */
+}
+
+.skillbox {
+    border: 2px solid rgb(60, 255, 0);
+    width: 100%;
+    height: 670px;
+}
+
+.html {
+    width: 70%; background-color: red;
+} 
+.css {
+    width: 42%; background-color: red;
+} 
+.js {
+    width: 12%; background-color: red;
+} 
+.ps {
+    width: 65%; background-color: red;
+} 
