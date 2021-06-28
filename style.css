@@ -1,33 +1,64 @@
+/*----------------------------------------header--------------------------------------------------*/
 body {
-    background: #00241c;
-    background: linear-gradient( black, rgb(0, 42, 49), teal);
+    background: #001611;
+    background: linear-gradient( black, #001611, black, #001611, black);
 }
 
+h2 {
+    text-align: center;
+    font-size: 3em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: darkorange;
+}
+
+p {
+    text-align: center;
+    font-size: 1.5em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: darkorange;
+}
 
 .header {
-    border: 2px solid rgb(60, 255, 0);
+    border: 2px solid rgb(114, 32, 0);
 }
+
 .profilepic {
-    width: 200px;
+    width: 30%;
+    height: auto;
     border-radius: 50%;
     display: block;
     margin-left: auto;
     margin-right:auto;
+    border-radius: none;
 }
 
+.elli {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 3em;
+}
+
+.webdev {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 3em;
+}
+
+/*---------------------------------------navigation bar--------------------------------------------*/
 #navigation {
     display: block;
     color: darkorange;
-    /*width: 480px;*/
     height: 350px;
     margin-left: auto;
     margin-right:auto;
-    border: 2px solid rgb(60, 255, 0);
+    border: 2px solid rgb(114, 32, 0);
     padding: 0;
 }
 
+/*------------------------------------------lebenslauf---------------------------------------------*/
 .inhalt{
-    height: 500px;
+    height: 100px;
     color: darkorange;
     font-size: 1.5em;
 }
@@ -38,46 +69,26 @@ body {
     font-size: 1em;
     margin-left: auto;
     margin-right:auto;
-    border: 2px solid rgb(60, 255, 0);
-
+    border: 2px solid rgb(114, 32, 0);
 }
 
 .lebenslauf, .skills, .kontakt {
-    background-color: rgb(104, 21, 0);
+    background-color: rgb(0, 26, 48);
+    color: darkorange;
+}
+.portfolionav { /*for the chosen part, to be darker than the rest*/
+    background-color: rgb(26, 5, 0);
     color: darkorange;
 
 }
 
-li {
+li { 
     list-style: none;
     border-style: solid;
     font-size: 1em;
     margin-left: auto;
     margin-right: auto;
     padding: 20px;
-}
-
-h2, p {
-    margin-left: 50px;
-    color: darkorange;
-}
-p {
-    font-size: 1.5em;
-    color: darkorange;
-}
-
-.elli {
-    text-align: center;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-weight: bold;
-    font-size: 2em;
-}
-
-.webdev {
-    text-align: center;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-weight: bold;
-    font-size: 2em;
 }
 
 .portfoliopepe {
@@ -87,13 +98,13 @@ p {
     display: block;
     margin-left: auto;
     margin-right:auto;
-    border: 2px solid rgb(60, 255, 0);
+    border: 2px solid rgb(114, 32, 0);
 }
 
+/*don't cut this out, important for responsibility*/
 .portfoliopepe img {
     width: 100%;
     height: auto;
-
 }
 
 /*--------------------------Meine Skills------------------------------------------------*/
@@ -107,26 +118,56 @@ p {
 }
 
 .skillbox {
-    border: 2px solid rgb(60, 255, 0);
+    border: 2px solid rgb(114, 32, 0);
     width: 100%;
-    height: 670px;
+    height: 700px;
 }
 
 .html {
-    width: 70%; background-color: red;
+    width: 70%; background-color: rgb(0, 26, 48);
 } 
 .css {
-    width: 42%; background-color: red;
+    width: 42%; background-color: rgb(0, 26, 48);
 } 
 .js {
-    width: 12%; background-color: red;
+    width: 12%; background-color: rgb(0, 26, 48);
 } 
 .ps {
-    width: 65%; background-color: red;
+    width: 65%; background-color: rgb(0, 26, 48);
 } 
 .bs {
-    width: 30%; background-color: red;
+    width: 30%; background-color: rgb(0, 26, 48);
 } 
 .sl {
-    width: 39%; background-color: red;
+    width: 39%; background-color: rgb(0, 26, 48);
 } 
+
+/*-------------------------------Kontakt Buttons---------------------------------*/
+.contact {
+    border: 2px solid rgb(114, 32, 0);
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right:auto;
+}
+
+.giticon {
+    text-align: center;
+    width: 100%;
+    height: auto;
+}
+
+/*.shadow {
+    border: 2px solid rgb(114, 32, 0);
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+    padding: 90px;
+    width: 100%;
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+    box-shadow:
+      inset 60px 0 120px rgb(183, 0, 255),  /* left magenta */
+      inset -60px 0 120px rgb(0, 204, 255); /* right cyan */
+  }
