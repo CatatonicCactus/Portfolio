@@ -158,6 +158,26 @@ li {
     height: auto;
 }
 
+/*
+a, span, i {
+    color: darkred;
+    vertical-align: .4em;
+    text-align: center;
+    font-size: 2em;
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right:auto;
+}
+
+.fas.fa-mail-bulk {
+    color: darkred;
+}*/
+
+
+
+
 /*.shadow {
     border: 2px solid rgb(114, 32, 0);
     text-align: center;
@@ -171,3 +191,11 @@ li {
       inset 60px 0 120px rgb(183, 0, 255),  /* left magenta */
       inset -60px 0 120px rgb(0, 204, 255); /* right cyan */
   }
+
+
+
+
+  center {
+    text-align:center;
+    width:100%;
+}
