@@ -2,19 +2,18 @@
 body {
     background: #001611;
     background: linear-gradient( black, #001611, black, #001611, black);
+    font-family: 'Viaoda Libre';
 }
 
 h2 {
     text-align: center;
     font-size: 2em;
-    font-family: Georgia, 'Times New Roman', Times, serif;
     color: darkorange;
 }
 
 p {
     text-align: center;
     font-size: 1.5em;
-    font-family: Georgia, 'Times New Roman', Times, serif;
     color: darkorange;
 }
 
@@ -34,14 +33,12 @@ p {
 
 .elli {
     text-align: center;
-    font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bold;
     font-size: 2em;
 }
 
 .webdev {
     text-align: center;
-    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 2em;
 }
 
@@ -73,13 +70,18 @@ p {
 }
 
 .lebenslauf, .skills, .kontakt {
+    position: relative;
     background-color: rgb(0, 26, 48);
     color: darkorange;
 }
 .portfolionav { /*for the chosen part, to be darker than the rest*/
+    position: relative;
     background-color: rgb(26, 5, 0);
     color: darkorange;
-
+}
+.arrow {
+    position: absolute;
+    right: +5px;
 }
 
 li { 
@@ -158,6 +160,13 @@ li {
     height: auto;
 }
 
+a:link {
+    color: white;
+}
+a:visited {
+    color: rgb(255, 0, 0);
+}
+
 /*
 a, span, i {
     color: darkred;
@@ -191,8 +200,6 @@ a, span, i {
       inset 60px 0 120px rgb(183, 0, 255),  /* left magenta */
       inset -60px 0 120px rgb(0, 204, 255); /* right cyan */
   }
-
-
 
 
   center {
